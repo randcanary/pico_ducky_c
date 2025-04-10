@@ -1,0 +1,4 @@
+# ignore everything inside build folder
+build/
+FreeRTOS-Kernel/
+pico-sdk/
