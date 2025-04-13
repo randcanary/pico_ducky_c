@@ -7,7 +7,7 @@
 #include <stdlib.h>
 
 #define MIN_DELAY 50
-#define MAX_DELAY 100
+#define MAX_DELAY 75
 
 const uint LED_PIN = PICO_DEFAULT_LED_PIN;
 

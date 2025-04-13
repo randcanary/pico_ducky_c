@@ -14,7 +14,7 @@ tusb_desc_device_t const desc_device = {
 
     .bDeviceClass = TUSB_CLASS_HID,                  // HID class
     .bDeviceSubClass = HID_SUBCLASS_BOOT,            // Boot subclass
-    .bDeviceProtocol = HID_ITF_PROTOCOL_KEYBOARD,        // Keyboard protocol
+    .bDeviceProtocol = HID_ITF_PROTOCOL_KEYBOARD,    // Keyboard protocol
     .bMaxPacketSize0 = CFG_TUD_ENDPOINT0_SIZE,
 
     .idVendor = 0xCafe,                              // Vendor ID
